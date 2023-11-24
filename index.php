@@ -14,7 +14,7 @@
                 <li><a href="#">Home</a> </li>
                 <li><a href="#">About me</a> </li>
                 <li><a href="#">Social media</a> </li>
-                <li><a href="#">Account</a> </li>
+                <li><a href="login.php">Account</a> </li>
             </ul>
         </nav>
     </header>
@@ -23,5 +23,13 @@
     <main>
         <h1>Mi sitio web</h1>
     </main>
+
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var header =document.querySelector("header");
+            header.classList.toggle("abajo",window.scrollY>0);
+            
+        })
+    </script>
 </body>
 </html>

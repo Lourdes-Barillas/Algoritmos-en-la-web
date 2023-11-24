@@ -19,6 +19,10 @@ header{
     z-index: 10;
 }
 
+header.abajo{
+    background: #ffefc3;
+}
+
 header .logo{
     position: relative;
     color: #fff;
@@ -65,4 +69,8 @@ header ul li a:hover{
     background: url("img/Portada_estudios.png");
     background-size: cover;
     background-position: center center;
+}
+header.abajo .logo,
+header.abajo ul li a{
+    color: #000;
 }
