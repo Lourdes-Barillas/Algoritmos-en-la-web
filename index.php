@@ -3,44 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/estilos.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Main page</title>
+    <link rel="stylesheet" href="css/styleHome.css">
 </head>
 <body>
+    <header>
+        <a href="#" class="logo">Algoritmos sencillos de práctica</a>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a> </li>
+                <li><a href="#">About me</a> </li>
+                <li><a href="#">Social media</a> </li>
+                <li><a href="#">Account</a> </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="zona1"></section>
 
-
-    <div class="wrapper">
-        <form action="" method="POST">
-            <h1>Login</h1>
-            <div class="input-box">
-                <input type="text" name="username" placeholder="Username" required>
-                <i class='bx bxs-user'></i>
-            </div>
-            <div class="input-box">
-                <input type="password" name="password" placeholder="Password" required>
-                <i class='bx bxs-lock-alt' ></i>
-            </div>
-
-            <div class="remember-forgot">
-                <label>
-                    <input type="checkbox">Remember me
-                </label>
-                <a href="#">Forgot password</a>
-            </div>
-
-            <button type="submit" class="btn">Login</button>
-
-            <div class="register-link">
-                <p>Don't have an account?
-                    <a href="register.php">Register</a>
-                </p>
-            </div>
-        </form>
-    </div>
-
-    <br>
-    
-
+    <main>
+        <h1>Mi sitio web</h1>
+    </main>
 </body>
 </html>

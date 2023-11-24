@@ -29,7 +29,7 @@
             <button type="submit" class="btn">Sign in</button>
             <div class="register-link">
                 <p>Already have an account?
-                    <a href="index.php">Login</a>
+                    <a href="login.php">Login</a>
                 </p>
             </div>
         </form>
