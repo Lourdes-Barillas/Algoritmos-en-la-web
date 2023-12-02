@@ -20,7 +20,7 @@ header{
 }
 
 header.abajo{
-    background: #ffefc3;
+    background: #333;
 }
 
 header .logo{
@@ -73,4 +73,62 @@ header ul li a:hover{
 header.abajo .logo,
 header.abajo ul li a{
     color: #000;
+}
+
+/*Search wrapper*/
+.process-cards{
+    padding-top: .65rem;
+    background: white;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: .8rem;
+}
+
+.card{
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: .5rem;
+}
+
+.card > .header{
+    margin-bottom: .25rem;
+}
+
+.card > .body{
+    font-size: .8rem;
+    color: #777;
+}
+.logo-proceso{
+    width: 150px;
+}
+
+/*Footer */
+footer{
+    background: #333;
+    padding-top: .99rem;
+}
+footer p{
+    color: #fff;
+    font-size: .9rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+footer .informacion{
+    color: #fff;
+    font-size: .9rem;
+    position: relative;
+    justify-content: center;
+    gap: .85rem;
+    
+}
+footer .informacion a{
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .informacion a:hover{
+    color: #500;
+    text-decoration: underline;
 }
